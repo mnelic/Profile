@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="nav center">
+        <p class="logo">LOGO</p>
+        <input type="checkbox" name="" class="checkBtn"/>
+        <ol class="center">
+            <a href="#About"><li>About</li></a>
+            <a href="#Education"><li>Education</li></a>
+            <a href="#Experience"><li>Experience</li></a>
+            <a href="#Projects"><li>Projects</li></a>
+            <a href="#Contact"><li>Contact</li></a>
+        </ol>
+    </header>
+    <section class="main">
+        <div class="box">
+            <h1>Mnelisi Mbonani</h1>
+            <p>Full stack software developer</p>
+            <button class="btn" onclick="window.location.href='#About'">About</button>
+        </div>
+        <img src="images/profile.jpg" alt="">
+    </section>
+
+
+    <!-- about -->
+    <div class="about center" id="About" >
+        <div class="box_wrap">
+            <p id="AboutHeading" class="heading">About</p>
+            <p class="text">Hello! My name is Mnelisi Mbonani, and I'm a web developer with a diverse set of skills. I am currently completing a year-long internship as a full-stack developer.
+                During this time, I have gained immense knowledge and experience, receiving guidance and feedback from senior developers. I have learned to quickly adapt to new tools and technologies.
+                <br/><br/> 
+                Briefly on the technologies I use: I work with MySQL for databases. I am currently working on a legacy system with over a hundred tables, which requires a lot of effort to create connections and navigate around. For database management, I can create stored procedures, views, and map them in Visual Studio using Entity Framework. 
+                <br/><br/>  
+                For backend development, I am proficient in C#, and for frontend development, I am familiar with JavaScript.
+                <br/><br/>  
+                You can click the <strong> <a href="#Contributions">My recent Contributions</a></strong> button under the projects section to see images showcasing my contributions.</p>
+                   
+        <div class="box_wrap"> 
+            <p class="heading">Skills</p>
+            <div class="skills_box">
+                <div class="icon-container">
+                    <i class="fab fa-html5 fa-3x"></i> <!-- Your icon (from FontAwesome, for example) -->
+                    <span class="hover-text">HTML 5</span>
+                  </div>
+                  <div class="icon-container">
+                    <i class="fab fa-css3-alt fa-3x"></i> <!-- Your icon (from FontAwesome, for example) -->
+                    <span class="hover-text">CSS</span>
+                  </div>
+                  <div class="icon-container">
+                    <i class="fab fa-js fa-3x"></i> <!-- Your icon (from FontAwesome, for example) -->
+                    <span class="hover-text">JavaScript</span>
+                  </div>
+                  <div class="icon-container">
+                    <i class="fab fa-node-js fa-3x"></i> <!-- Your icon (from FontAwesome, for example) -->
+                    <span class="hover-text">Node</span>
+                  </div>
+            </div>
+            <div style="background-color: aliceblue;">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- education -->
+    <div class="education center" id="Education">
+        <div class="left_box">
+            <h1 class="heading">Education</h1>
+            <div class="container">
+                <h3>University Of Free State</h3>
+                <p>Computer science</p>
+                <small>2017-2020</small>
+            </div>
+            <div class="container">
+                <h3>Oracle University</h3>
+                <p>Java Developer Certificate</p>
+                <small>November 2023</small>
+            </div>
+        </div>
+        <div class="right_box">
+            <img src="images/universityone.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="experience center" id="Experience">
+        <h3>Experience</h3>
+        <ul>
+            <li>
+                <small>Feb 2024 - Present</small>
+                <p>Fulll Stack Developer Intern</p>
+                <!--<p>Haramber</p> -->
+                 <p>Company name: <a href="https://www.harambee.co.za/">Harambee</a></p> 
+            </li>
+            <li>
+                <small>July 2023 - Jan-2024</small>
+                <p>Java Software Developer Intern </p>
+                <!--<p>JumpCo</p> -->
+                <p>Company name: <a href="https://jumpco.io/">JumpCo</a></p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects center" id="Projects">
+        <h3>Projects</h3>
+        <div class="container">
+            <a id="Contributions" href="https://github.com/mnelic/Contibution_As_FulStackDeveloper/commit/879714ea741758d607f9c78bde5f03dd801fa7f2">
+                <div>My recent contributions</div>
+            </a>
+            <a href="https://github.com/mnelic/Covide-19_Statistics_Project">
+                <div>Covide-19_Statistics_Project</div>
+            </a>
+            <a href="https://github.com/mnelic/News-App">
+               <div>News App</div>
+            </a>
+            <a href="https://github.com/mnelic/Uber-Clone_App-150go">
+               <div>Uber Clone App-150go</div>
+            </a>
+            <a href="https://github.com/mnelic/File_Management_System_API">
+                <div>File Management System API</div>
+            </a>
+            <a href="https://github.com/mnelic/Minimal_API_Handbook">
+                <div>Minimal API Handbook</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact center" id="Contact">
+        <div class="contact-card"> 
+            <h2>Contact Information</h2> 
+            <p> <img src="images/person-plus.svg" alt=""><strong> Name:</strong>Mnelisi Mbonani</p>
+            <p> <img src="images/envelope-at.svg" alt=""><strong> Email:</strong><a href="mailto:mnelic4@gmail.com">mnelic4@gmail.com</a></p> 
+            <p><img src="images/telephone.svg" alt=""><strong> Phone:</strong> <a href="tel:+1234567890">072 032 1942</a></p>  
+            <p> <img src="images/geo-alt.svg" alt=""><strong> Address:</strong> 16218 Ajax St, Protea Glen Ext 16-Soweto,Johannesburg</p> 
+         </div>
+    </div>
+</body>
+</html>
