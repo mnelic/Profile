@@ -441,4 +441,13 @@ p a:hover {
     visibility: visible;
     opacity: 1;
   }
+   
+  .icon-group {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .contribution-list {
+    padding-left: 30px;
+  }
   
